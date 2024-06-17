@@ -3,6 +3,8 @@
 <ul>
   <% @articles.each do |article| %>
     <li>
+      <span>Rails extract id form the article object when using link_to helper method</span>
+      <br/>
       <%= link_to article.title, article %>
     </li>
   <% end %>
